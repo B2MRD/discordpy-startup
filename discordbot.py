@@ -17,8 +17,8 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
     
-
-    if message.content == '/neko':
-        await message.channel.send('にゃーん')
-
+@bot.command()
+async def moyashi(ctx):
+    await ctx.send('I am bot')
+    
     bot.run(token)
