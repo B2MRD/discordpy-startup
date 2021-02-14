@@ -20,5 +20,11 @@ async def ping(ctx):
 @bot.command()
 async def moyashi(ctx):
     await ctx.send('I am bot')
-    
+   
+from discord.ext import commands
+
+bot = commands.Bot(
+    command_prefix="!"
+)
+
     bot.run(token)
