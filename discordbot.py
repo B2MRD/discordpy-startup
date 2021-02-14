@@ -18,7 +18,7 @@ async def ping(ctx):
     await ctx.send('pong')
     
 @bot.command()
-async def もやし(ctx):
+async def moyashi(ctx):
     await ctx.send('もやしは美味しいよ')
 
 bot.run(token)
